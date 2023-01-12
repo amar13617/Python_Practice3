@@ -36,3 +36,27 @@ while n > 0:
     rev = rev * 10 + a
     n = n // 10
 #print(rev)
+
+#Python program to display all integers within the range 100-200 whose sum of digits is an even number
+
+#Python program to check whether the given integer is a prime number or not
+num = 89
+if num > 1:
+    for i in range(2, int(num//2)+1):
+        if num % i == 0:
+            print("not prime")
+            break
+    else:
+        print("prime")
+
+for i in range(10, 30):
+    if i > 1:
+        for j in range(2, i):
+            if i % j == 0:
+                #print("not prime")
+                break
+        else:
+            print(i)
+            
+
+
