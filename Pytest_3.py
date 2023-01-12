@@ -26,4 +26,13 @@ sm = 0
 for i in range(1,11):
     sm = sm + i
     result = sm /10
-print(result)
+#print(result)
+
+#Python program to display the given integer in a reverse manner.
+n = 524
+rev = 0
+while n > 0:
+    a = n % 10
+    rev = rev * 10 + a
+    n = n // 10
+#print(rev)
