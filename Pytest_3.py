@@ -13,3 +13,9 @@ if num % 5 == 0:
     print("multiple of 5")
 else:
     print("not multiple of 5")
+
+num = 42
+if ((num % 5 == 0) and (num % 7 == 0)):
+    print("yes")
+else:
+    print("no")
